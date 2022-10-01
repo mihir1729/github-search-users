@@ -10,8 +10,8 @@ import { Auth0Provider } from "@auth0/auth0-react";
 ReactDOM.render(
 	<React.StrictMode>
 		<Auth0Provider
-			domain={process.env.REACT_APP_DOMAIN}
-			clientId={process.env.REACT_APP_CLIENT_ID}
+			domain='mihiryadav.us.auth0.com'
+			clientId='GfvbwfhBaV5fR0JCjW1XchJfHOZ8bqJ8'
 			redirectUri={window.location.origin}
 		>
 			<GithubProvider>
